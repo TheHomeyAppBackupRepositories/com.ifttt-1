@@ -1,0 +1,30 @@
+{
+  "name": "com.ifttt",
+  "version": "1.0.0",
+  "description": "This app lets you connect your IFTTT Applets with Homey.",
+  "main": "app.js",
+  "dependencies": {
+    "request": "2.88.0"
+  },
+  "devDependencies": {
+    "eslint": "^5.9.0",
+    "eslint-config-athom": "^1.0.1"
+  },
+  "scripts": {
+    "run": "homeyConfig compose && athom project --run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athombv/com.ifttt.git"
+  },
+  "engines": {
+    "node": ">=8.12.0"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athombv/com.ifttt/issues"
+  },
+  "homepage": "https://github.com/athombv/com.ifttt#readme"
+}
